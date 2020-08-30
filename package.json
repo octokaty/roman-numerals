@@ -1,0 +1,26 @@
+{
+  "name": "@octokaty/roman-numerals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octokaty/roman-numerals.git"
+  },
+  "keywords": [
+    "roman",
+    "numerals",
+    "converter",
+    "number",
+    "encoder"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/octokaty/roman-numerals/issues"
+  },
+  "homepage": "https://github.com/octokaty/roman-numerals#readme"
+}
