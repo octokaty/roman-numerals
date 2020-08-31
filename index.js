@@ -16,7 +16,8 @@ let roman = {
 
 module.exports = function(number) {
   let result = "";
-   
+
+if(number > 0 && number < 4000) {
   for(let key in roman) {
     while(roman[key] <= number) {
       result += key;
@@ -24,4 +25,9 @@ module.exports = function(number) {
     }
   }
   return result;
+  } else {
+    return "Error. Number should be greater than 0 and less than 4000."
+  }
 }
+
+
